@@ -1,0 +1,16 @@
+nav {
+  display: none; }
+
+.section-5 {
+  page-break-before: always; }
+
+.section-6 {
+  page-break-before: always; }
+  .section-6 .cleft div:nth-child(2) img {
+    height: 500px;
+    width: 100%; }
+
+.section-7 {
+  page-break-before: always; }
+
+/*# sourceMappingURL=print.css.map */

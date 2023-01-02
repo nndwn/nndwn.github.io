@@ -1,0 +1,24 @@
+nav{
+    display: none;
+}
+
+.section {
+    &-5{
+        page-break-before: always;
+
+    }
+    &-6 {
+        page-break-before: always;
+        .cleft{
+            div:nth-child(2){
+                img{
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &-7 {
+        page-break-before: always;
+    }
+}

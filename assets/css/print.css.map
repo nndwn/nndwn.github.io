@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "print.css",
+	"sources": [
+		"../scss/print.scss"
+	],
+	"sourcesContent": [
+		"nav{\r\n    display: none;\r\n}\r\n\r\n.section {\r\n    &-5{\r\n        page-break-before: always;\r\n\r\n    }\r\n    &-6 {\r\n        page-break-before: always;\r\n        .cleft{\r\n            div:nth-child(2){\r\n                img{\r\n                    height: 500px;\r\n                    width: 100%;\r\n                }\r\n            }\r\n        }\r\n    }\r\n    &-7 {\r\n        page-break-before: always;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,GAAG,CAAA;EACC,OAAO,EAAE,IAAI,GAChB;;AAGI,AAAD,UAAG,CAAA;EACC,iBAAiB,EAAE,MAAM,GAE5B;;AACA,AAAD,UAAG,CAAC;EACA,iBAAiB,EAAE,MAAM,GAS5B;EAVA,AAIW,UAJT,CAEC,MAAM,CACF,GAAG,AAAA,UAAW,CAAA,CAAC,EACX,GAAG,CAAA;IACC,MAAM,EAAE,KAAK;IACb,KAAK,EAAE,IAAI,GACd;;AAIZ,AAAD,UAAG,CAAC;EACA,iBAAiB,EAAE,MAAM,GAC5B"
+}

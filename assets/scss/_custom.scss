@@ -1,0 +1,132 @@
+
+a {
+    word-break: break-all;
+    &:hover {
+        text-decoration: none;
+    }
+}
+li {
+    font-size: $font-size-base;
+    &::first-letter{
+        text-transform: capitalize;
+       
+    }
+}
+%line-b {
+    content: "";
+    border: 1px solid $gray-600;
+    width: 45px;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 2px;
+    opacity: 0.5;
+}
+
+.h {
+    &-6 {
+        height: $b;
+    }
+    &-4 {
+        height: $c;
+    }
+    &-3 {
+        height: $d;
+    }
+}
+.d-grid {
+    display: grid;
+}
+.img{
+    object-fit: cover;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+section {
+    h1{
+        position: relative;
+        text-transform: uppercase;
+        font-weight: $w700;
+        margin-bottom: 20px;
+        &::before{
+            @extend %line-b;
+        }
+    }
+    h3{
+        text-transform: capitalize;
+        font-weight: $w700;
+        margin:0;
+        @at-root .contract h3 {
+            font-size: $h5-font-size;
+        }
+    }
+    p {
+        margin: 0;
+    }
+
+}
+
+nav {
+    button {
+        background: none;
+        border: none;
+    }
+}
+.section{
+    &-1{
+        .desc{
+            word-break: break-word;
+            h2{
+                &.nama {
+                    position: relative;
+                    &::before{
+                        @extend %line-b;
+                    }
+                }
+            }
+            ul{
+                margin: $tooltip-margin;
+                padding: 0;
+            }
+            li {
+                display: flex;
+                span {
+                    display: block;
+                    width: 60px;
+                }
+            }
+        }
+    }
+    &-2{
+        .hal-right{
+            > div
+            {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    &-3{
+        ul {
+            list-style: none;
+            margin: auto;
+            padding: 0;
+            li{
+                padding: 0.7rem 0;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
